@@ -14,4 +14,4 @@ here=$(pwd)
 tar -czf cleaned_$name.tgz $name
 mv $here/cleaned_$name.tgz $home_dir
 
-
+cd $home_dir
